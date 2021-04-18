@@ -51,6 +51,8 @@ a{
 a:hover{
   background-color: #fff;
   color: #000;
+  
+
 
 }
 /*
@@ -63,21 +65,34 @@ ul li.active a{
 /*Main section*/
 #About_me{
   min-height: 400px;
+  text-align: center;
+  border: 2px solid black;
 }
 
 #About_me h2{
-  margin-top:20px;
+  margin-top:0px;
   margin-bottom:0px;
   margin-left: 0px;
   font-size:40px;
-  border-style: none;
   padding: 0px,0px,0px,0px;
 }
-
+/*
 #About_me p{
   text-align: justify;
   margin-left: 0px;
   position: relative;
   bottom: 30px;
 
+}
+*/
+#Skills{
+  min-height: 400px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+#Projects{
+  min-height: 400px;
+  text-align: center;
+  border: 2px solid green;
 }

@@ -1,6 +1,20 @@
-let btn = document.querySelector('.btn');
-let el = document.querySelector('.special');
+let aboutLink = document.querySelector('#aboutLink');
+let skillsLink = document.querySelector('#skillsLink');
+let projectsLink = document.querySelector('#projectsLink');
 
-btn.addEventListener('click', function () {
-    el.scrollIntoView(true);
+let about = document.querySelector('#About_me');
+let Skills = document.querySelector('#Skills');
+let Projects = document.querySelector('#Projects');
+
+aboutLink.addEventListener('click', function () {
+  about.scrollIntoView(true);
 });
+
+skillsLink.addEventListener('click', function () {
+  Skills.scrollIntoView(true);
+});
+
+projectsLink.addEventListener('click', function () {
+  Projects.scrollIntoView(true);
+});
+
