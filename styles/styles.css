@@ -1,10 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: Calibri, Helvetica;
   font-size: 20px;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  background-color: lightblue;
+  margin: 0px;
+  padding: 0px;
+  /*background-color: lightblue;*/
+  /*background: rgb(64, 16, 107);*/
+  background: linear-gradient(
+    210deg,
+    rgb(81, 175, 204) 30%,
+    rgb(2, 104, 151) 100%
+  );
 
 }
 /* Global */
@@ -25,19 +34,29 @@ ul{
 
 /* Header */
 header {
-  background:#35424a;
+  background:#474747;
   color:#ffffff;
   padding-top:20px;
   min-height:70px;
   height: 250px; 
   text-align: center;
+  /* background: linear-gradient(
+    210deg,
+    rgb(81, 175, 204) 30%,
+    rgb(2, 104, 151) 100%
+  ); */
 }
 
 
 #navBar{
   display: grid;
   grid-template-columns: repeat(3, 33.333%);
-  background:#35424a;
+  /* background:#35424a; */
+  /* background: linear-gradient(
+    210deg,
+    rgb(81, 175, 204) 30%,
+    rgb(2, 104, 151) 100%
+  ); */
 }
 
 a{
@@ -51,30 +70,28 @@ a{
 a:hover{
   background-color: #fff;
   color: #000;
-  
-
-
 }
+
 /*
 ul li.active a{
   background-color: #fff;
   color: #000;
 
 }
-*/
+/*------------------------------------------------------------*/
+
 /*Main section*/
+/*------------------------------------------------------------*/
 #About_me{
   min-height: 400px;
   text-align: center;
   border: 2px solid black;
 }
 
-#About_me h2{
-  margin-top:0px;
-  margin-bottom:0px;
-  margin-left: 0px;
+#About_me_title {
+  margin: 0px 0px 0px 0px;
   font-size:40px;
-  padding: 0px,0px,0px,0px;
+  text-align: center;
 }
 /*
 #About_me p{
@@ -85,12 +102,41 @@ ul li.active a{
 
 }
 */
+
+/*------------------------------------------------------------*/
 #Skills{
   min-height: 400px;
   text-align: center;
   border: 2px solid red;
 }
 
+
+#Skills_icons_area {
+  display: grid;
+  grid-template-columns: repeat(3, 33.333%);
+  grid-template-rows: repeat(); 
+}
+
+/*
+Skills:
+Python
+Java
+JS
+HTML
+CSS
+React
+(Flask)
+(Django)
+
+SQL
+Docker
+
+(MS Office)
+(Github)
+*/
+
+
+/*------------------------------------------------------------*/
 #Projects{
   min-height: 400px;
   text-align: center;
