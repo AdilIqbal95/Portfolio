@@ -79,21 +79,20 @@ ul li.active a{
 
 }
 /*------------------------------------------------------------*/
-*/
+
 /*Main section*/
 /*------------------------------------------------------------*/
-/* #About_me{
+#About_me{
   min-height: 400px;
   text-align: center;
-  border: 2px solid red;
-  background-color: red;
+  border: 2px solid black;
 }
 
 #About_me_title {
   margin: 0px 0px 0px 0px;
   font-size:40px;
   text-align: center;
-} */
+}
 /*
 #About_me p{
   text-align: justify;
@@ -103,10 +102,7 @@ ul li.active a{
 
 }
 */
-#About_me{
-  background-color: red;
-  text-align: center;
-}
+
 /*------------------------------------------------------------*/
 #Skills{
   min-height: 400px;
@@ -114,12 +110,12 @@ ul li.active a{
   border: 2px solid red;
 }
 
-/* 
+
 #Skills_icons_area {
   display: grid;
   grid-template-columns: repeat(3, 33.333%);
   grid-template-rows: repeat(); 
-}*/
+}
 
 /*
 Skills:
