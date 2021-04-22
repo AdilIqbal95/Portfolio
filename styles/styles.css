@@ -7,14 +7,14 @@ body{
   line-height: 1.5;
   margin: 0px;
   padding: 0px;
-  /*background-color: lightblue;*/
-  /*background: rgb(64, 16, 107);*/
+  background-color: #f5efdc
+  /*
   background: linear-gradient(
     210deg,
-    rgb(81, 175, 204) 30%,
-    rgb(2, 104, 151) 100%
+    rgb(96, 94, 86) 100%,
+    rgb(2, 104, 151) 10%
   );
-
+  */
 }
 /* Global */
 .container{
@@ -72,15 +72,12 @@ a:hover{
   color: #000;
 }
 
-/*
-ul li.active a{
-  background-color: #fff;
-  color: #000;
-
+#Main{
+  opacity: 70%;
 }
-/*------------------------------------------------------------*/
 
-/*Main section*/
+/*------------------------------------------------------------*/
+/*About me section*/
 /*------------------------------------------------------------*/
 #About_me{
   min-height: 400px;
@@ -104,6 +101,8 @@ ul li.active a{
 */
 
 /*------------------------------------------------------------*/
+/*Skills section*/
+/*------------------------------------------------------------*/
 #Skills{
   min-height: 400px;
   text-align: center;
@@ -113,29 +112,38 @@ ul li.active a{
 
 #Skills_icons_area {
   display: grid;
-  grid-template-columns: repeat(3, 33.333%);
-  grid-template-rows: repeat(); 
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: auto;
+  justify-items: center;
 }
+
+.iconify { 
+  width: 100px; 
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+svg.iconify:hover {
+  background-color: rgb(255, 255, 255);
+  opacity: 30%;
+  transition: 0.6s ease;
+}
+
 
 /*
 Skills:
-Python
-Java
-JS
-HTML
-CSS
-React
-(Flask)
-(Django)
 
-SQL
-Docker
 
-(MS Office)
-(Github)
+
+
+-- 11
+(Github
+
 */
 
 
+/*------------------------------------------------------------*/
+/*Projects section*/
 /*------------------------------------------------------------*/
 #Projects{
   min-height: 400px;
