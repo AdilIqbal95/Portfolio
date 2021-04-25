@@ -3,7 +3,7 @@ html {
 }
 body{
   font-family: Calibri, Helvetica;
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 1.5;
   margin: 0px;
   padding: 0px;
@@ -21,6 +21,10 @@ body{
   width:98%;
   margin:auto;
   overflow:hidden;
+}
+
+h2 {
+  font-size: large;
 }
 
 /* ul{
@@ -85,7 +89,7 @@ a:hover{
   /* border: 2px solid black; */
 }
 
-#About_me_title {
+.subHeading {
   margin: 0px 0px 0px 0px;
   font-size:40px;
   text-align: center;
@@ -213,10 +217,45 @@ a:hover{
   letter-spacing: 1px;
 }
 
-.links {
+.links ul {
   list-style-type: none;
 }
 
+.slick-slide {
+  transform: scale(0.8);
+  opacity: 0.3;
+  transition: all ease 0.5s;
+}
+
+.slick-slide.slick-current {
+  transform: scale(1);
+  opacity: 1;
+}
+/* Slider Control */
+.slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  background: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+  width: 100px;
+  outline: none;
+}
+
+.slick-next {
+  left: 52%;
+}
+
+.slick-prev {
+  left: 40%;
+}
+
+.slick-list {
+  padding-top: 55px !important;
+  padding-bottom: 55px !important;
+}
 
 
 

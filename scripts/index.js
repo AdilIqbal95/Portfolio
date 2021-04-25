@@ -20,8 +20,5 @@ projectsLink.addEventListener('click', function () {
 
 $(".slider").slick({
   centreMode: true,
-  slidesToShow: 3
-})
-
-
-
+  slidesToShow: 1
+});
