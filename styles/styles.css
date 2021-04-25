@@ -23,13 +23,13 @@ body{
   overflow:hidden;
 }
 
-ul{
+/* ul{
   margin:0;
   padding:0;
-}
-@font-face{
+} */
+/* @font-face{
   font-family: googleFont;
-}
+} */
 
 
 /* Header */
@@ -82,7 +82,7 @@ a:hover{
 #About_me{
   min-height: 400px;
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #About_me_title {
@@ -106,7 +106,7 @@ a:hover{
 #Skills{
   min-height: 400px;
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
@@ -152,7 +152,6 @@ a:hover{
   transition: 0.6s ease;
   width: 120px;
   height: 15px;
-  /* background-blend-mode: overlay ; */
 }
 
 .iconName {
@@ -170,8 +169,58 @@ a:hover{
 /*------------------------------------------------------------*/
 /*Projects section*/
 /*------------------------------------------------------------*/
-#Projects{
+#Projects {
   min-height: 400px;
   text-align: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
+
+#Projects_container {
+  /* display: grid;
+  grid-template-columns: repeat(1,auto);
+  grid-template-rows: 1; */
+
+  margin-top: 10px;
+}
+
+.slick-slide img {
+  margin: 0 auto; 
+  margin-bottom: 10px ;
+  max-width: 200px;
+  max-height: auto;
+
+}
+.item {
+  padding: 15px;
+  outline: none;
+}
+.item-inner{
+  background: linear-gradient(45deg, #ff6600, #fff000);
+  border-radius: 18px;
+  text-align: center;
+  padding: 25px;
+}
+.item-inner h4 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.item-inner p {
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.links {
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+

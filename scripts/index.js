@@ -18,3 +18,10 @@ projectsLink.addEventListener('click', function () {
   Projects.scrollIntoView(true);
 });
 
+$(".slider").slick({
+  centreMode: true,
+  slidesToShow: 3
+})
+
+
+
