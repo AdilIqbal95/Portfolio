@@ -302,6 +302,7 @@ footer {
   height: 120px;
   justify-items: center;
   vertical-align: middle;
+  border-top: white 3px solid;
 }
 
 .contactIcons {
