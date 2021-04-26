@@ -4,9 +4,8 @@ html {
 body{
   font-family: Arial, Helvetica, sans-serif;
   /* font-size: 20px; */
-  font-weight: 100;
   line-height: 1.5;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   background-color: #f5efdc
 }
@@ -17,16 +16,13 @@ body{
   overflow:hidden;
 }
 
-
 /* Header */
 header {
   background: #364b71;
-  background-repeat: no-repeat;
-  background-position: top;
   color:#ffffff;
-  padding-top:20px;
+  padding:0px 0px 0px 0px;
   min-height:70px;
-  height: 250px; 
+  height: 115px; 
   text-align: center;
 }
 
@@ -40,7 +36,7 @@ h1 {
 
 h2 {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 1px;
   margin: 0px 0px 0px 0px;
   font-family: sans-serif;
@@ -48,7 +44,7 @@ h2 {
 
 h4 {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 1px;
   margin: 0px 0px 0px 0px;
   font-family: sans-serif;
@@ -58,13 +54,10 @@ h4 {
 
 #navBar{
   display: grid;
-  grid-template-columns: repeat(3, 33.333%);
-  /* background:#35424a; */
-  /* background: linear-gradient(
-    210deg,
-    rgb(81, 175, 204) 30%,
-    rgb(2, 104, 151) 100%
-  ); */
+  grid-template-columns: repeat(4, auto);
+  background: #364b71;
+  color: white;
+  border-top: white 2px solid;
 }
 
 #navBar a{
@@ -89,7 +82,7 @@ h4 {
 /*About me section*/
 /*------------------------------------------------------------*/
 #About_me{
-  min-height: 400px;
+  min-height: auto;
   text-align: center;
   /* border: 2px solid black; */
 }
@@ -99,15 +92,12 @@ h4 {
   font-size:30px;
   text-align: center;
 }
-/*
-#About_me p{
-  text-align: justify;
-  margin-left: 0px;
-  position: relative;
-  bottom: 30px;
 
+#About_me_para{
+  text-align: justify;
+  margin: 10px 10px 10px 10px;
 }
-*/
+
 
 /*------------------------------------------------------------*/
 /*Skills section*/
@@ -300,6 +290,36 @@ h4 {
   padding-top: 55px !important;
   padding-bottom: 55px !important;
 }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  margin-top: 20px;
+  background: #364b71;
+  color:#ffffff;
+  padding:0px 0px 0px 0px;
+  min-height:70px;
+  height: 120px;
+  justify-items: center;
+  vertical-align: middle;
+}
+
+.contactIcons {
+  height: 100px;
+}
+.contactIcons a {
+  color: white;
+}
+
+.contactIcons .iconify {
+  height: 90px;
+  width: 90px;
+}
+
+.contactIcons:hover {
+  cursor: pointer;
+}
+
 
 
 
